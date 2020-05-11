@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="title">Recipe Book</header>
+    
+    <section id="recipeForm">
+        <form>
+            <input type="hidden" id="recipeId" value="" />
+            <fieldset class="fieldset">
+                <label for="recipeTitle">Title</label>
+                <input type="text" name="recipeTitle" id="recipeTitle">
+            </fieldset>
+            <fieldset class="fieldset">
+                <label for="recipeInstructions">Instructions</label>
+                <textarea type="date" name="recipeInstructions" id="recipeInstructions"></textarea>
+            </fieldset>
+        </form>
+        <button id="saveRecipe">Save Recipe</button>
+    </section>
+    <article id="recipeList"></article>
+    <script type="module" src="/scripts/main.js"></script>
+</body>
+</html>
